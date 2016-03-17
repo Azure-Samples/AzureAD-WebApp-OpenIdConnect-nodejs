@@ -4,7 +4,8 @@
  	returnURL: 'http://localhost:3000/auth/openid/return',
  	identityMetadata: 'https://login.microsoftonline.com/common/.well-known/openid-configuration', // For using Microsoft you should never need to change this.
  	clientID: '<your app id>',
- 	clientSecret: '<your secret>', // if you are doing code or id_token code
+ 	clientSecret: '<your secret>', // from 'Keys' in your AAD Application
+ 	realm: '<xxx.onmicrosoft.com', // Replace xxx with the tenant domain name used by your AAD Tenant
  	skipUserProfile: true, // for AzureAD should be set to true.
  	responseType: 'id_token code', // for login only flows use id_token. For accessing resources use `id_token code`
  	responseMode: 'query', // For login only flows we should have token passed back to us in a POST
