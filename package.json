@@ -2,7 +2,10 @@
     "name": "passport-azure-ad-login-oidc",
     "version": "0.0.1",
     "dependencies": {
+        "body-parser": "^1.17.1",
+        "cookie-parser": "^1.4.3",
         "express": "3.x",
+        "express-session": "^1.15.1",
         "ejs": ">= 0.0.0",
         "ejs-locals": ">= 0.0.0",
         "bunyan": "~1.8.0",
