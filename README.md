@@ -46,12 +46,9 @@ In `config.js`, your tenant ID should go in the `realm` configuration field.
 
 ### Step 6: Run the application
 
-* `$ node app.js`
-
-**Is the server output hard to understand?:** We use `bunyan` for logging in this sample. The console won't make much sense to you unless you also install bunyan and run the server like above but pipe it through the bunyan binary:
-
-* `$ npm install -g bunyan`
-* `$ node app.js | bunyan`
+```bash
+$ npm start
+```
 
 ### You're done!
 

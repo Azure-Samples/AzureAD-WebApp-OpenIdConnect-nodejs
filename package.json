@@ -9,5 +9,8 @@
         "assert-plus": "~1.0.0",
         "passport": "~0.3.2",
         "passport-azure-ad": "~1.4.4"
+    },
+    "scripts": {
+        "start": "node app.js | bunyan"
     }
 }
